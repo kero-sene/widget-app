@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 const App = () => {
   return (
     <>
-    <HashRouter>
+    <HashRouter basename='/'>
     <Routes>
-      <Route path='/weather' element={<Weather />}> </Route>
+      <Route exact path="/"></Route>
+      <Route path='/weather' component={<Weather />}> </Route>
     </Routes>
     </HashRouter>
     </>
