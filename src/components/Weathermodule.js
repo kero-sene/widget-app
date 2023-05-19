@@ -12,7 +12,7 @@ const WeatherComponent = () => {
   
   return (
     <div>
-      <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/" data-label_1="PORTLAND, OR" data-label_2="WEATHER" data-font="Roboto" data-theme="beige" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" >PORTLAND, OR WEATHER</a>
+      <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/" data-label_1="PORTLAND, OR" data-label_2="WEATHER" data-font="Roboto" data-theme="beige" data-basecolor="#E7D5B9" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" >PORTLAND, OR WEATHER</a>
       {weatherfunc(document,'script','weatherwidget-io-js')}
     </div>
   )
