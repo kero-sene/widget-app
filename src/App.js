@@ -5,8 +5,10 @@ const App = () => {
   return (
     <>
     <HashRouter basename='/'>
+      <Switch>
       <Route exact path="/"></Route>
       <Route path='/weather' component={<Weather />}> </Route>
+      </Switch>
     </HashRouter>
     </>
   );
