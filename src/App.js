@@ -6,7 +6,7 @@ const App = () => {
     <>
     <HashRouter basename='/'>
       <Routes>
-      <Route exact path="/"></Route>
+      <Route path="/"></Route>
       <Route path='/weather' element={<Weather />}> </Route>
       </Routes>
     </HashRouter>
