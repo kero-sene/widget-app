@@ -1,14 +1,14 @@
 import React from "react";
 import Weather from "./pages/weather"
-import { HashRouter, Route} from 'react-router-dom';
+import { Routes, HashRouter, Route} from 'react-router-dom';
 const App = () => {
   return (
     <>
     <HashRouter basename='/'>
-      <Switch>
+      <Routes>
       <Route exact path="/"></Route>
-      <Route path='/weather' component={<Weather />}> </Route>
-      </Switch>
+      <Route path='/weather' element={<Weather />}> </Route>
+      </Routes>
     </HashRouter>
     </>
   );
