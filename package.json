@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "rm -r docs && npm run build && mv /Users/rela/widget-app/docs /Users/rela/widget-app/docs",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
