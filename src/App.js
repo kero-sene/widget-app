@@ -1,6 +1,6 @@
 import React from "react";
 import Weather from "./pages/weather"
-import Countdown from "./pages/countdown"
+import Card from "./pages/card"
 import { Routes, HashRouter, Route} from 'react-router-dom';
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Routes>
       <Route path="/"></Route>
       <Route path='/weather' element={<Weather />}> </Route>
-      <Route path='/countdown' element={<Countdown />}> </Route>
+      <Route path='/card' element={<Card />}> </Route>
       </Routes>
     </HashRouter>
     </>
